@@ -38,8 +38,13 @@ class  AdminController{
                 
             })
         }
+        static async dashboard(req,res){
+            res.render('./layout/dashboard', {
+                
+            })
+        }
 
-
+        
 
 
 }

@@ -14,6 +14,6 @@ const ifNotLoggedIn=require('../middleware/ifNotLoggedIn')
 
 
 router.use('/admin', require('./admin'))
-
+router.use('/', require('./admin'))
 module.exports=router
 
